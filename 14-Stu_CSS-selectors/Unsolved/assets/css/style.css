@@ -1,13 +1,14 @@
-/* TODO: Label selector type */
+/* The below selector adds a specific font-family to all of the elements */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* The body selector will allow us to apply this back-ground color to just the body of the html file */
 body {
   background-color: lemonchiffon;
 }
 
+/* Here we are applying specific properties to both the header and footer section of the HTML file */
 header,
 footer {
   width: 100%;
@@ -17,17 +18,18 @@ footer {
   background-color: #191970;
 }
 
+/* the figure element is set to comprise of the image, and the images caption (figcaption). Here we add a background color, as well as a custom width of the figure container */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* We have added the class .highlighted text to the ul element. Doing so, this selector will apply a bold styling to the text in this ul */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* The contect-section class was added to the html 'section' containing all of the contact info. Here, we are applying a background color to it */
 #contact-section {
   background-color: #f0ead6;
 }
