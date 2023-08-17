@@ -9,7 +9,11 @@ img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
-  /* TODO: Add a margin property */
-  /* TODO: Add a padding property */
-  /* TODO: Add a border property */
+  margin: 30px;
+  padding: 14px;
+  border: solid thick blue;
 }
+
+
+/* Struggling a little on this one. Borders of mine dont seem thick enough,
+ and increasing padding any further causes overflow.  */
