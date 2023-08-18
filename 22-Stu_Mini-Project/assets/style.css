@@ -10,6 +10,7 @@
     border-bottom: 8px solid burlywood;
     color: white;
     position: sticky;
+    top: 0px;
 }
 
 nav {
@@ -45,7 +46,7 @@ img {
 #main {
     margin: 20px;
     padding: 4px;
-    position: relative;
+    position:static;
 }
 
 #form {
